@@ -18,12 +18,12 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploy steps'
+                echo 'Deploy step'
                 sleep 10
             }
         }
         stage('Docker') {
-            step {
+            steps {
                 echo 'Image step'
             }
         }
